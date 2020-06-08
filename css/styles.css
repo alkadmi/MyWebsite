@@ -1,4 +1,134 @@
-body
-{
-  background-color: blue;
+/***************Tag Selector***************/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
 }
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  line-height: 2;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a {
+  color: #11999E
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: gray;
+  border-width: 5px;
+  width: 5%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+/***************Class Selector***************/
+.TopContainer {
+  position: relative;
+  padding-top: 100px;
+  background-color: #EAF6F6;
+  margin-bottom: 100px;
+}
+
+.MiddleContainer {
+  background-color: #ffffff;
+  margin-bottom: 100px;
+}
+
+.BottomContainer {
+  background-color: #66BFBF;
+  padding-bottom: 15px;
+  padding-top: 25px;
+}
+
+.first-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.second-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.Web-Development {
+  width: 500px;
+  height: 300px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-img1 {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-img2 {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.Contact-Email {
+  margin-top: 100px;
+}
+
+.copyright {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  color: #EAF6F6;
+}
+
+.contact-paragraph {
+  margin-bottom: 50px;
+}
+
+.Contact-Button {
+  font-family: arial;
+  color: #FFFFFF !important;
+  font-size: 14px;
+  text-shadow: 1px 1px 0px #7CACDE;
+  box-shadow: 1px 1px 1px #BEE2F9;
+  padding: 10px 25px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  background: #11999E;
+}
+
+.testbutton:hover {
+  color: #14396A !important;
+  background: #468CCF;
+  background: linear-gradient(top, #468CCF, #63B8EE);
+  background: -ms-linear-gradient(top, #468CCF, #63B8EE);
+  background: -webkit-gradient(linear, left top, left bottom, from(#468CCF), to(#63B8EE));
+  background: -moz-linear-gradient(top, #468CCF, #63B8EE);
+}
+
+/***************ID Selector***************/
